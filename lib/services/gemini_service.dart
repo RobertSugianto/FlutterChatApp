@@ -3,7 +3,7 @@ import 'dart:async';
 
 class GeminiService {
   late final ChatSession chat;
-  final String apiKey = 'AIzaSyCEHx4osj-Q8oS0Z4mWV4-y_X777iIKIB8'; 
+  final String apiKey = 'YOUR_GEMINI_API_KEY'; // i'm changing this into string because public repository.
 
   GeminiService() {
     if (apiKey == 'YOUR_GEMINI_API_KEY') {
